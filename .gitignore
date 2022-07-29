@@ -6,6 +6,12 @@ yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
 
+# Node
+**/node_modules
+/angularpdf/.angular
+npm-debug.log
+yarn-error.log
+
 # Miscellaneous
 /.angular/cache
 .sass-cache/
@@ -117,7 +123,7 @@ dist
 .tern-port
 
 # Visual Studio Code
-**/.vscode/*
+.vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
